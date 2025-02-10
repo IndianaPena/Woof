@@ -44,7 +44,8 @@ p {
     color: var(--rojo-coral);
 }
 
-
+.list {
+}
 
 /*--------------------------------------------------------------
 # Header
@@ -237,6 +238,7 @@ header {
 
 
 
+
 /*--------------------------------------------------------------
 # Shop
 --------------------------------------------------------------*/
@@ -350,7 +352,6 @@ header {
 --------------------------------------------------------------*/
 #special{
 	padding-bottom: 10px;
-	padding: 150px;
 	color: black;
 	position: relative;
 }
@@ -396,8 +397,7 @@ header {
 	background-color: #162d40;
 }
 
-
-#click{
+#click {
 	background-color: var(--azul-marino);
 	padding-bottom: 10px;
 	padding: 150px;

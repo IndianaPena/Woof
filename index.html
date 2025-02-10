@@ -19,21 +19,18 @@
 <body>
 	
 <!-- HEADER -->
-	<header>
-		<div class="container-fluid">
-			
-			<nav class="navbar navbar-expand-lg navbar-light">
-				
-				<a class="navbar-brand" href="index.html">
-					<img src="img/Woof-Logo-Blanco.png" alt="logo" class="img-fluid">
-				</a>
-                
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<header>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/Woof-Logo-Blanco.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-				
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
@@ -46,21 +43,20 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">BullySafe</a>
                         </li>
-						<li class="nav-item">
+                        <li class="nav-item">
                             <a class="nav-link" href="#">Shop All</a>
                         </li>
+                        <li class="nav-item d-flex gap-3">
+                            <a href="#" class="icon-btn"><i class="fas fa-search"></i></a>
+                            <a href="#" class="icon-btn"><i class="fas fa-user"></i></a>
+                            <a href="#" class="icon-btn"><i class="fas fa-shopping-cart"></i></a>
+                        </li>
                     </ul>
-					<div class="d-flex">
-						<a href="#" class="icon-btn"><i class="fas fa-search"></i></a>
-						<a href="#" class="icon-btn"><i class="fas fa-user"></i></a>
-						<a href="#" class="icon-btn"><i class="fas fa-shopping-cart"></i></a>
-          			</div>
                 </div>
-				
-			</nav>
-			
-		</div>
-	</header>	
+            </div>
+        </nav>
+    </div>
+</header>
 <!-- HEADER -->
 
 
@@ -120,8 +116,12 @@
 				meets your <span >comfort</span></h2>
 			</div>
 			
+			<article class="col-lg-6 col-sm-6 col-12">
+					<div class="titulos text-start">
+					
+			</div>
 
-			<div class="container">		
+			<div class="container list">		
 					<div class="feature">
 						<div class="row">
 							<article class="col-lg-2 col-sm-2 col-2 text-end">
@@ -170,7 +170,9 @@
 						</div>
 					</div>
 				</div>
+				</article>
 		</div>
+			
 </section>
 <!-- FEATURES -->	
 
@@ -212,8 +214,8 @@
 
 	
 <!-- CALL TO ACTION -->	
-<section id="special" class="section">
-		<div class="">
+<!-- CALL TO ACTION -->	
+<section id="special">
 			<div class="row align-items-center">
 				<article class="col-md-6">
 					<video class="img-fluid rounded" autoplay muted loop>
@@ -226,12 +228,10 @@
 					<h2>on your first purchase!</h2>
 					<img src="img/specialgift.jpg" class="img-fluid" alt="Productos para perros">
 					<div class="text-center">
-					<a href="#" class="btn-cta">Shop Now</a>
+					<a href="https://indianapena.github.io/Woof/?utm_source=mailchimp&utm_medium=email&utm_campaign=Lanzamiento_Landing_Woof" class="btn-cta">Shop Now</a>
 					</div>
 				</article>
 			</div>
-		</div>	
-</section>
 
 <section id="click" class="cta-section text-center py-5">
 			<h4 class="cta-section">Make Your Dog’s Day in <span class="coral"> One Click!</span> </h4>
@@ -294,13 +294,17 @@
 	
 	
 	
-<!-- AWARDS -->
+<!-- AWARDS -->
 <section id="awards" class="section">
-	<div>
-       <img src="img/awards.webp" alt="awards" class="img-fluid">  
-    </div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<article class="col-lg-8 col-sm-10 col-12 text-center">
+				<img src="img/awards.webp" alt="awards" class="img-fluid">
+			</article>
+		</div>
+	</div>
 </section>
-<!-- AWARDS -->
+<!-- AWARDS -->
 	
 	
 	
@@ -363,6 +367,18 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	
+		<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QXEYTZP3PE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QXEYTZP3PE');
+</script>
+	
+	
+	
 	<script>
 	
 		
@@ -396,17 +412,7 @@
 	
 	</script>
 	
-	
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QXEYTZP3PE"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-QXEYTZP3PE');
-</script>
-	
 	
 </body>
 </html>
