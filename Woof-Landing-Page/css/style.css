@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+	--azul-menta:#1AA6B7;
+	--azul-marino:#002B3E;
+	--color-iceberg:#D9ECF2;
+	--rosa-claro: #F56A79;
+	--rojo-coral: #FF414D;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: var(--rosa-claro);
+  padding: 15px 0;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-height: 60px;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: var(--color-iceberg);
+  font-weight: 600;
+  margin: 0 10px;
+  font-size: 1.1rem;
+}
+
+.icon-btn {
+  color: var(--color-iceberg);
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+
+.icon-btn {
+  text-decoration: none;
+  color: var(--color-iceberg);
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: var(--color-iceberg);
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  background: url("../img/Hero.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 50%;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.tail-wagging {
+  font-family: 'Jua', sans-serif;
+  color: var(--azul-marino);
+}
+
+.happiness {
+  font-family: 'Aleo', serif;
+  color: var(--rosa-claro);
+  margin-top: 10px;
+  font-weight: 800
+}
+
+.hero-content h2 {
+  font-family: 'Aleo', serif;
+  color: var(--azul-menta);
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.hero-content p {
+  font-family: 'Aleo', sans-serif;
+  color: var(--azul-marino);
+  margin: 15px 0;
+  font-size: 1rem;
+}
+
+.shop-now-btn {
+  background-color: var(--rosa-claro);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: 'Aleo', serif;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.hero-image {
+  display: none;
+}
+
+
+/*--------------------------------------------------------------
+# Body/Generales
+--------------------------------------------------------------*/
+.section {
+	padding: 80px 0px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header{
+	background-color: var(--rosa-claro);
+	padding: 10px 5px;
+}
+
+header img{
+	width: 100px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Subscribe/Formulario
+--------------------------------------------------------------*/
+#subscribe{
+	font-family: "Aleo", serif;
+	background-color: var(--color-iceberg);
+	padding-bottom: 10px;
+	background-image: url("../img/Formulario-Imagen.png");
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	color: var(--azul-marino);
+	position: relative;
+}
+.coral{
+	color: var(--rojo-coral);
+}
+
+#subscribe h2 {
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  font-size: 45px;
+  top: 10%; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#subscribe h3 {
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  top: 25%; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+.row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#subscribe form{
+	max-width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    color: var(--rojo-coral);
+    font-size: 16px;
+    font-weight: 800;
+	margin-right: 80px; 
+    margin-top: 140px;
+}
+
+.form-btn-outline{
+	display: flex;
+	justify-content: center;
+}
+.btn-outline-danger {
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+	font-weight:800;
+	color: var(--rojo-coral);
+	border-color: var(--rojo-coral);
+}
+
