@@ -14,6 +14,7 @@
 # Body/Generales
 --------------------------------------------------------------*/
 .section {
+	font-family: 'Aleo', serif;
 	padding: 80px 0px;
 }
 
@@ -27,11 +28,13 @@ body {
 }
 
 h2 {
+	font-family: 'Aleo', serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
 
 h3 {
+	font-family: 'Aleo', serif;
     font-size: 1.8rem;
     font-weight: bold;
 }
@@ -78,6 +81,7 @@ header {
 
 .navbar {
   padding: 0;
+	position: sticky;
 }
 
 .navbar-brand {
@@ -122,7 +126,7 @@ header {
   align-items: center;
   background: url("../img/Hero.png") no-repeat center center;
   background-size: cover;
-  padding: 150px;
+  padding: 100px;
   height: 800px;
   position: relative;
   overflow: hidden;
@@ -191,16 +195,29 @@ header {
     background: var(--azul-marino);
     color: white;
     text-align: left;
-    padding: 60px 0;
+    padding: 60px 20px;
 }
 
 #design h2 {
     text-align: center;
     color: white;
+	padding-bottom: 40px;
+}
+
+#design h3 {
+    text-align: left;
+    color: white;
+	padding-bottom: 20px;
+}
+
+#design p {
+    text-align: left;
+    color: white;
+	padding-right: 20px;
 }
 
 #design img {
-    max-width: 100%;
+    max-width: 90%;
     border-radius: 10px;
 }
 
