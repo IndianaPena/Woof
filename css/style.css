@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
 :root{
 	--azul-menta:#1AA6B7;
 	--azul-marino:#002B3E;
@@ -18,14 +20,15 @@
 	padding: 80px 0px;
 }
 
+.smallpadding {
+	padding: 20px 20px;
+}
+
 body {
     font-family: 'Aleo', serif;
     color: #333;
 }
 
-.section {
-    padding: 80px 0px;
-}
 
 h2 {
 	font-family: 'Aleo', serif;
@@ -48,6 +51,7 @@ p {
 }
 
 .list {
+
 }
 
 /*--------------------------------------------------------------
@@ -68,7 +72,7 @@ header img{
 # Navbar
 --------------------------------------------------------------*/
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Aleo', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -145,29 +149,32 @@ header {
 }
 
 .tail-wagging {
-  font-family: 'Jua', sans-serif;
+  font-family: 'Pangolin', sans-serif;
   color: var(--azul-marino);
+	font-size: 40px;
+	margin-bottom: 5px;
 }
 
 .happiness {
   font-family: 'Aleo', serif;
   color: var(--rosa-claro);
-  margin-top: 10px;
-  font-weight: 800
+  margin-top: 5px;
+  font-weight: 800;
+	font-size: 60px; 
 }
 
 .hero-content h2 {
   font-family: 'Aleo', serif;
   color: var(--azul-menta);
-  font-size: 1.5rem;
-  margin-top: 10px;
+  font-size: 40px;
+  margin-top: 5px;
 }
 
 .hero-content p {
   font-family: 'Aleo', sans-serif;
   color: var(--azul-marino);
   margin: 15px 0;
-  font-size: 1rem;
+  font-size: 25px;
 }
 
 .shop-now-btn {
@@ -220,7 +227,9 @@ header {
     max-width: 90%;
     border-radius: 10px;
 }
-
+.pangolin{
+	font-family: Pangolin, sans-serif;
+}
 
 /*--------------------------------------------------------------
 # Features Section
@@ -253,7 +262,25 @@ header {
     color: white !important;
 }
 
+#features .feature .row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
+#features .feature .row article {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#features .feature .row .text-end {
+    padding-right: 15px; /* Ajusta este valor según sea necesario */
+}
+
+#features .feature .row .col-lg-8,
+#features .feature .row .col-sm-8,
+#features .feature .row .col-10 {
+    padding-left: 0;
+}
 
 
 /*--------------------------------------------------------------
@@ -263,15 +290,18 @@ header {
   padding: 60px 15px;
   text-align: center;
 }
-#shop h1 {
+#shop h2 {
   font-size: 48px;
   font-weight: 700;
   color: var(--azul-marino);
   margin-bottom: 40px;
 }
+
 #shop i{
  color: white;
 }
+
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -373,7 +403,7 @@ header {
 	position: relative;
 }
 #special h3{
-	 font-family: Arial, sans-serif;
+	 font-family: "Aleo", serif;
 	 ext-transform: uppercase;
 	 font-weight: bold;
 	 font-size: 15px;
@@ -384,9 +414,9 @@ header {
 	font-size: 40px
 }
 #special h2{
-	 font-family: Arial, sans-serif;
-	 ext-transform: uppercase;
+	 font-family: "Aleo", serif;
 	 font-size: 25px;
+	padding-bottom: 50px;
 }
 .btn-cta{
 	font-family: "Aleo", serif;
@@ -406,6 +436,7 @@ header {
     color: var(--rojo-coral);
     margin-top: 10px;
     font-weight: 800;
+	font-size: 40px;
 }
  .cta-section {
 	color: var(--color-iceberg);
@@ -433,36 +464,34 @@ header {
 	background-image: url("../img/Formulario-Imagen.png");
 	background-size: cover;
 	background-position: center;
-	padding: 150px;
+	padding: 45px;
 	color: var(--azul-marino);
-	position: relative;
 }
+
+#subscribe .btn {
+	background-color: var(--rosa-claro);
+	color: white;
+	border-radius: 60px;
+	padding: 10px 25px;
+	}
+
+
 .coral{
 	color: var(--rojo-coral);
 }
 
 #subscribe h2 {
-  position: absolute;
   text-align: center;
   font-weight: 700;
-  font-size: 45px;
-  top: 10%; 
-  left: 50%;
-  transform: translateX(-50%);
+  font-size: 35px;
+	margin-bottom: -20px;
 }
 
 #subscribe h3 {
-  position: absolute;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
-  top: 25%; 
-  left: 50%;
-  transform: translateX(-50%);
 }
-.row {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 #subscribe form{
 	max-width: 400px;
@@ -475,10 +504,13 @@ header {
     margin-top: 140px;
 }
 
+
+
 .form-btn-outline{
 	display: flex;
 	justify-content: center;
 }
+
 .btn-outline-danger {
   border-radius: 25px;
   padding: 10px 20px;
@@ -487,6 +519,7 @@ header {
 	color: var(--rojo-coral);
 	border-color: var(--rojo-coral);
 }
+
 
 
 /*--------------------------------------------------------------
@@ -509,7 +542,7 @@ footer {
 }
 
 footer img{
-	width: 80px;
+	width: 120px;
 	padding-bottom: 20px;
 }
 
@@ -537,7 +570,7 @@ footer img{
 }
 
 .footer-column ul li a {
-    color: white;
+    color: white !important;
     text-decoration: none;
     font-size: 1.1rem;
     display: block;
